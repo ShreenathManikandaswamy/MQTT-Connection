@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b52a644b27fd45c8ae7a6b86596e165, type: 3}
+  m_Name: Device-1
+  m_EditorClassIdentifier: 
+  deviceId: 1
+  deviceName: DEVICE-1
+  deviceIcon: {fileID: 21300000, guid: 0974f6fb0ec8a4e72a03fd52049e3c01, type: 3}
+  deviceObject: {fileID: 2963248466469630947, guid: 1349d7e24e819f34d8dbc83b8a14e2bf, type: 3}
+  topics:
+  - vibration_sensor1
+  - vibration_sensor2
+  - energymeter
+  sensorTypes:
+  - vibrationSensor
+  - vibrationSensor
+  - energySensor
+  sensorNames:
+  - vibration_sensor_1
+  - vibration_sensor_2
+  - energy_meter
+  targetName: Target-1
